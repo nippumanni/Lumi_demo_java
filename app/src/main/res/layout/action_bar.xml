@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:id="@+id/action_layout"
+    android:layout_height="60dp">
+    <TextView
+        android:id="@+id/headd"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="aaa"
+        android:textColor="#ba68c8"
+        style="@style/AppTheme" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="bbb"
+
+        android:id="@+id/action_bar_sent"
+        style="@style/AppTheme" />
+</LinearLayout>
